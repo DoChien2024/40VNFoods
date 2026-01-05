@@ -71,7 +71,7 @@ function Header({ language, setLanguage }) {
           <NavBtn label={t.nav_search} path="/search" active={pathname === '/search'} />
           {loggedIn && <NavBtn label={t.nav_library} path="/library" active={pathname === '/library'} />}
 
-          {/* User Menu / Login Button */}
+          {/* Menu Login Button */}
           {loggedIn ? (
             <div
               className="relative"

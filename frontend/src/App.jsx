@@ -13,7 +13,7 @@ import HistoryPage from './pages/HistoryPage'
 import LoginRegisterPage from './pages/LoginRegisterPage'
 import FoodDetailPage from './pages/FoodDetailPage'
 
-// Animation variants
+// Animation 
 const pageVariants = {
   slideX: {
     initial: { opacity: 0, x: -20 },
@@ -34,7 +34,7 @@ const pageVariants = {
 
 const transition = { duration: 0.3 }
 
-// Animated Page Wrapper Component
+// Animated Page 
 function AnimatedPage({ children, variant = 'slideY' }) {
   return (
     <motion.div
@@ -48,7 +48,7 @@ function AnimatedPage({ children, variant = 'slideY' }) {
   )
 }
 
-// Protected Route Component
+// Protected 
 function ProtectedRoute({ children }) {
   return isAuthenticated() ? children : <Navigate to="/login" replace />;
 }
@@ -59,7 +59,7 @@ function AnimatedRoutes({ language, predictionResult, setPredictionResult }) {
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
-        {/* ========== PUBLIC ========== */}
+        {/*PUBLIC*/}
         
         <Route path="/" element={
           <AnimatedPage variant="slideX">
@@ -90,7 +90,7 @@ function AnimatedRoutes({ language, predictionResult, setPredictionResult }) {
             <LoginRegisterPage language={language} />
           </AnimatedPage>
         } />
-        {/* ========== PROTECTED ========== */}
+        {/*PROTECTED*/}
         
         <Route path="/library" element={
           <ProtectedRoute>

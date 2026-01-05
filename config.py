@@ -12,7 +12,6 @@ IMAGE_SIZE = (299, 299)  # Must match InceptionV3 training size!
 NUM_CLASSES = 40 
 BATCH_SIZE = 32 
 
-# Paths
 FOOD_DATABASE_PATH = os.path.join(os.path.dirname(__file__), 'backend', 'food_database.json')
 
 # Load FOOD_DATABASE from JSON (cached for performance)

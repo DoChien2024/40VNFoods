@@ -2,7 +2,6 @@ import { memo } from 'react'
 import { motion } from 'framer-motion'
 
 const ErrorState = memo(({ 
-  emoji = "😞", 
   title, 
   message, 
   buttonText, 

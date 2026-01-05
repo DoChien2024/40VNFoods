@@ -33,7 +33,7 @@ function LoginRegisterPage({ language }) {
 
   return (
     <div className="relative w-full min-h-screen overflow-y-auto flex items-center justify-center pt-16">
-      {/* Background Layer */}
+      {/* Background */}
       <div 
         className="fixed inset-0 z-0 w-full h-full bg-cover bg-center"
         style={{
@@ -45,7 +45,7 @@ function LoginRegisterPage({ language }) {
         <div className="overlay-medium" />
       </div>
 
-      {/* Main Container */}
+      {/* Main */}
       <motion.div 
         className="relative z-10 w-full max-w-md mx-4 my-8"
         initial={{ opacity: 0, y: 20 }}
@@ -67,7 +67,7 @@ function LoginRegisterPage({ language }) {
             </motion.h1>
           </motion.div>
 
-          {/* Form - Switch between Login and Signup */}
+          {/* Form */}
           {isLogin ? (
             <LoginForm 
               language={language}

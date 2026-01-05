@@ -1,13 +1,9 @@
-/**
- * Custom hooks for authentication
- */
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { isAuthenticated, getUsername, clearTokens } from './auth';
 
 /**
- * Hook to manage auth state
- * @returns {object} { loggedIn, username, checkAuth }
+ * @returns {object}
  */
 export const useAuth = () => {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -28,9 +24,7 @@ export const useAuth = () => {
 };
 
 /**
- * Hook to require authentication
- * Redirects to login if not authenticated
- * @returns {object} { loggedIn, loading }
+ * @returns {object}
  */
 export const useRequireAuth = () => {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -43,8 +37,6 @@ export const useRequireAuth = () => {
     setLoading(false);
 
     if (!authenticated) {
-      // Optional: auto redirect after delay
-      // setTimeout(() => navigate('/login'), 2000);
     }
   }, [navigate]);
 
@@ -52,9 +44,8 @@ export const useRequireAuth = () => {
 };
 
 /**
- * Hook for form validation with per-field errors
- * @param {string} language - Current language
- * @returns {object} Validation functions and error state
+ * @param {string} language 
+ * @returns {object} 
  */
 export const useFormValidation = (language) => {
   const [errors, setErrors] = useState({});

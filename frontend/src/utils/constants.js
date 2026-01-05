@@ -1,4 +1,3 @@
-// Background images
 export const BACKGROUND_IMAGES = {
   search: "https://as1.ftcdn.net/v2/jpg/01/98/67/62/1000_F_198676209_DSkxlm4f5smwiyyXB8jmlGinqHVnlMco.jpg",
   history: "https://t3.ftcdn.net/jpg/03/05/88/66/240_F_305886698_ddTHAi3V3gIY3KGzfFmCB1QA92Sht6kN.jpg",
@@ -26,7 +25,7 @@ export const PAGINATION = {
   maxVisiblePages: 5
 };
 
-// Timeouts (milliseconds)
+// Timeouts
 export const TIMEOUTS = {
   redirect: 3000,
   searchDebounce: 500,
@@ -52,11 +51,10 @@ export const SLIDE_IN = {
   exit: { opacity: 0, x: 20 }
 };
 
-// Common class names (now using utility classes from index.css)
+// Common class names
 export const GLASS_CARD = "glass-card rounded-3xl overflow-hidden p-8 shadow-2xl";
 export const GRADIENT_TEXT = "gradient-text-animated";
 export const PRIMARY_BUTTON = "btn-gradient-primary";
-// Text messages for notifications
 export const MESSAGES = {
   VN: {
     loginSuccess: 'Đăng nhập thành công!',
@@ -81,7 +79,7 @@ export const MESSAGES = {
     historySaved: 'Đã lưu lịch sử thành công',
     historyNotLoggedIn: 'Lịch sử chưa được lưu - bạn chưa đăng nhập',
     historySaveFailed: 'Lưu lịch sử thất bại',
-    // Backend error messages (Vietnamese)
+    // Backend error messages
     usernameRequired: 'Yêu cầu tên đăng nhập và mật khẩu',
     invalidCredentials: 'Tên đăng nhập hoặc mật khẩu không đúng',
     usernameExists: 'Tên đăng nhập đã tồn tại',

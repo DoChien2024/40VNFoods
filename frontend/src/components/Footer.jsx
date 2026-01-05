@@ -47,7 +47,7 @@ function Footer({ language }) {
               </p>
             </div>
 
-            {/* CỘT 2: CONTACT GRID */}
+            {/* CỘT 2 */}
             <div className="lg:col-span-8">
               <h4 className="text-xs font-black text-gray-800 uppercase tracking-[0.3em] mb-8 lg:text-left text-center">
                 Quick Connection

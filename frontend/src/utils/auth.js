@@ -74,13 +74,12 @@ export const createAuthAxios = () => {
     (error) => Promise.reject(error)
   );
 
-  // Response interceptor to handle 401 and refresh token
+  // Response interceptor 
   instance.interceptors.response.use(
     (response) => response,
     async (error) => {
       const originalRequest = error.config;
 
-      // If error is 401 and we haven't retried yet
       if (error.response?.status === 401 && !originalRequest._retry) {
         originalRequest._retry = true;
 
@@ -89,7 +88,6 @@ export const createAuthAxios = () => {
           originalRequest.headers.Authorization = `Bearer ${newAccessToken}`;
           return instance(originalRequest);
         } catch (refreshError) {
-          // Refresh failed, redirect to login
           clearTokens();
           window.location.href = '/login';
           return Promise.reject(refreshError);
@@ -147,9 +145,8 @@ export const verifyToken = async () => {
   }
 };
 
-// Save prediction history (silent - không báo lỗi nếu thất bại)
+// Save prediction history
 export const saveHistory = async (foodName, confidence, extra = {}) => {
-  // Chỉ lưu khi user đã login
   if (!isAuthenticated()) {
     return { success: false, reason: 'not_logged_in' };
   }
@@ -166,7 +163,6 @@ export const saveHistory = async (foodName, confidence, extra = {}) => {
     });
     return { success: true, data: response.data };
   } catch (error) {
-    // Silent fail - không ảnh hưởng UX
     console.warn('Failed to save history:', error.message);
     return { success: false, reason: 'api_error', error };
   }

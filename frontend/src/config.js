@@ -2,7 +2,7 @@ export const API_BASE_URL = 'http://localhost:5000/api';
 
 export const LANGUAGES = {
   VN: {
-    // ==================== COMMON / GLOBAL ====================
+    // COMMON / GLOBAL
     app_title: 'ẨM THỰC VIỆT',
     hero_title: 'ẨM THỰC VIỆT',
     hero_desc: '🌟AI nhận diện, hồn Việt lan tỏa.🌟',
@@ -14,12 +14,12 @@ export const LANGUAGES = {
     nav_search: 'Tìm Kiếm',
     nav_history: 'Lịch Sử',
 
-    // ==================== HOME PAGE ====================
+    //HOME PAGE
     home_banner_title: 'TRANG CHỦ',
     home_banner_subtitle: 'Đưa ẩm thực Việt Nam đến với thế giới',
     home_discover_btn: 'Khám phá ngay',
 
-    // ==================== INTRODUCTION SECTION ====================
+    //INTRODUCTION SECTION
     intro_title: 'Giới thiệu về',
     intro_project_name: '40VNFoods',
     intro_subtitle: 'AI VietNamese Cuisine',
@@ -27,7 +27,7 @@ export const LANGUAGES = {
     intro_p2: 'Với cơ sở dữ liệu hàng ngàn hình ảnh, hệ thống giúp bạn khám phá chi tiết về nguồn gốc và cách chế biến món ăn chỉ qua một tấm hình.',
     intro_quote: 'Góp phần bảo tồn và quảng bá văn hóa ẩm thực Việt đến bạn bè quốc tế.',
 
-    // ==================== SEARCH PAGE ====================
+    // SEARCH PAGE
     upload_image: 'Tải ảnh lên',
     drag_drop: 'Kéo thả ảnh vào đây hoặc click để chọn',
     analyzing: 'Đang phân tích...',
@@ -48,7 +48,7 @@ export const LANGUAGES = {
     feature3_title: 'Tìm Hiểu Món Việt',
     feature3_desc: 'Khám phá 40 món ăn Việt Nam đặc trưng',
 
-    // ==================== RESULT PAGE ====================
+    //RESULT PAGE
     result_title: 'Kết Quả Nhận Diện',
     confidence: 'Độ chính xác',
     description: 'Mô tả',
@@ -56,18 +56,18 @@ export const LANGUAGES = {
     related_dishes: 'Món ăn tương tự',
     back_home: 'Quay lại trang chủ',
 
-    // ==================== LIBRARY PAGE ====================
+    //LIBRARY PAGE 
     library_title: 'Thư Viện 40 Món Ăn Việt Nam',
     library_tagline: '✨ Hồn Việt trong từng món ăn ✨',
     search_placeholder: 'Tìm kiếm món ăn...',
     total_dishes: 'món ăn',
     explore_library: 'Khám phá thư viện',
 
-    // ==================== LOGIN / REGISTER PAGE ====================
+    //LOGIN / REGISTER PAGE
     login_title: 'Đăng Nhập',
     register_title: 'Đăng Ký',
 
-    // ==================== FOOTER ====================
+    //FOOTER
     contact_title: 'Liên Hệ Với Chúng Tôi',
     contact_desc: 'Mọi thắc mắc xin vui lòng liên hệ qua:',
     email: 'Email',
@@ -77,7 +77,7 @@ export const LANGUAGES = {
     thank_you: 'Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi! 🌟',
     support_desc: 'Chúng tôi luôn sẵn sàng hỗ trợ và lắng nghe phản hồi từ bạn.\nĐừng ngần ngại liên hệ với chúng tôi qua bất kỳ kênh nào ở trên!',
 
-    // ==================== REGIONS ====================
+    //REGIONS
     region: 'Miền',
     north: 'Miền Bắc',
     central: 'Miền Trung',
@@ -85,7 +85,7 @@ export const LANGUAGES = {
     nationwide: 'Cả nước'
   },
   EN: {
-    // ==================== COMMON / GLOBAL ====================
+    //COMMON / GLOBAL
     app_title: 'Vietnamese Cuisine',
     hero_title: 'VIETNAMESE CUISINE',
     hero_desc: '🌟AI recognition, spreading the spirit of Vietnam.🌟',
@@ -97,12 +97,12 @@ export const LANGUAGES = {
     nav_search: 'Search',
     nav_history: 'History',
 
-    // ==================== HOME PAGE ====================
+    //HOME PAGE
     home_banner_title: 'HOME',
     home_banner_subtitle: 'Bringing Vietnamese cuisine to the world',
     home_discover_btn: 'Explore Now',
 
-    // ==================== INTRODUCTION SECTION ====================
+    //INTRODUCTION SECTION 
     intro_title: 'About',
     intro_project_name: '40VNFoods',
     intro_subtitle: 'AI VietNamese Cuisine',
@@ -110,13 +110,13 @@ export const LANGUAGES = {
     intro_p2: 'With a database of thousands of images, the system helps you discover details about the origin and preparation of dishes through just one photo.',
     intro_quote: 'Contributing to the preservation and promotion of Vietnamese culinary culture to international friends.',
 
-    // ==================== SEARCH PAGE ====================
+    //SEARCH PAGE 
     upload_image: 'Upload Image',
     drag_drop: 'Drag and drop image here or click to select',
     analyzing: 'Analyzing...',
     analyzing_wait: 'Please wait a moment! 🍲',
 
-    // Features (unused but kept for future)
+    // Features 
     feature_camera: 'Take a food photo',
     feature_camera_desc: 'Use your camera directly',
     feature_gallery: 'Gallery',
@@ -131,7 +131,7 @@ export const LANGUAGES = {
     feature3_title: 'Explore Vietnamese Dishes',
     feature3_desc: 'Discover 40 distinctive Vietnamese dishes',
 
-    // ==================== RESULT PAGE ====================
+    //RESULT PAGE
     result_title: 'Recognition Result',
     confidence: 'Confidence',
     description: 'Description',
@@ -139,18 +139,18 @@ export const LANGUAGES = {
     related_dishes: 'Similar Dishes',
     back_home: 'Back to Home',
 
-    // ==================== LIBRARY PAGE ====================
+    //LIBRARY PAGE
     library_title: 'Library of 40 Vietnamese Dishes',
     library_tagline: '✨ Soul of Vietnam in every dish ✨',
     search_placeholder: 'Search dishes...',
     total_dishes: 'dishes',
     explore_library: 'Explore Library',
 
-    // ==================== LOGIN / REGISTER PAGE ====================
+    //LOGIN / REGISTER PAGE
     login_title: 'Login',
     register_title: 'Register',
 
-    // ==================== FOOTER ====================
+    //FOOTER
     contact_title: 'Contact Us',
     contact_desc: 'For any questions, please contact us via:',
     email: 'Email',
@@ -160,7 +160,7 @@ export const LANGUAGES = {
     thank_you: 'Thank you for using our service! 🌟',
     support_desc: 'We are always ready to support and listen to your feedback.\nFeel free to contact us via any channel above!',
 
-    // ==================== REGIONS ====================
+    //REGIONS
     region: 'Region',
     north: 'Northern Vietnam',
     central: 'Central Vietnam',
@@ -170,8 +170,8 @@ export const LANGUAGES = {
 };
 
 export const CONTACT_INFO = {
-  email: 'contact@vnfoodai.com',
-  github: 'https://github.com/18520339/30VNFoods',
+  email: 'Nguyenthaibao874@gmail.com',
+  github: 'https://github.com/DoChien2024/40VNFoods',
   linkedin: 'https://linkedin.com',
   phone: '+84 389 387 955'
 };
