@@ -1,0 +1,392 @@
+{
+  "Bánh bèo": {
+    "name_en": "Banh Beo (Water Fern Cake)",
+    "region": "central",
+    "description_vn": "Bánh bèo là món ăn dân dã đặc trưng của miền Trung, đặc biệt là Huế. Bánh làm từ bột gạo, ăn kèm với tôm khô, mỡ hành, nước mắm chua ngọt.",
+    "description_en": "Banh Beo is a rustic specialty of Central Vietnam, especially Hue. Made from rice flour, served with dried shrimp, scallion oil, and sweet-sour fish sauce.",
+    "ingredients_vn": "Bột gạo, tôm khô, mỡ hành, nước mắm",
+    "ingredients_en": "Rice flour, dried shrimp, scallion oil, fish sauce",
+    "related": ["Bánh cuốn", "Bánh bột lọc"]
+  },
+  "Bánh bột lọc": {
+    "name_en": "Banh Bot Loc (Clear Shrimp Dumpling)",
+    "region": "central",
+    "description_vn": "Bánh bột lọc là món ăn đặc sản Huế, làm từ bột năng, bột sắn dây, nhân tôm thịt. Bánh trong suốt, dai dai, ăn kèm nước mắm pha.",
+    "description_en": "Banh Bot Loc is a Hue specialty made from tapioca flour, filled with shrimp and pork. The translucent, chewy dumplings are served with fish sauce.",
+    "ingredients_vn": "Bột năng, bột sắn dây, tôm, thịt, nước mắm",
+    "ingredients_en": "Tapioca flour, arrowroot starch, shrimp, pork, fish sauce",
+    "related": ["Bánh bèo", "Bánh ít"]
+  },
+  "Bánh căn": {
+    "name_en": "Banh Can (Mini Rice Pancake)",
+    "region": "south",
+    "description_vn": "Bánh căn là món ăn vặt đặc trưng của Phan Thiết và Ninh Thuận. Bánh nhỏ, tròn, giòn, ăn kèm với trứng cút, tôm, mực và nước mắm chua ngọt.",
+    "description_en": "Banh Can is a popular street snack from Phan Thiet and Ninh Thuan. Small, round, crispy cakes served with quail eggs, shrimp, squid and sweet-sour fish sauce.",
+    "ingredients_vn": "Bột gạo, trứng cút, tôm, mực, nước mắm",
+    "ingredients_en": "Rice flour, quail eggs, shrimp, squid, fish sauce",
+    "related": ["Bánh khọt", "Bánh xèo"]
+  },
+  "Bánh canh": {
+    "name_en": "Banh Canh (Thick Noodle Soup)",
+    "region": "nationwide",
+    "description_vn": "Bánh canh là món ăn phổ biến khắp Việt Nam với nhiều biến thể. Sợi bánh dai, nước dùng đậm đà, có thể nấu với cua, chả cá, giò heo.",
+    "description_en": "Banh Canh is popular nationwide with many variations. Thick, chewy noodles in rich broth, cooked with crab, fish cake, or pork knuckle.",
+    "ingredients_vn": "Bột gạo, bột sắn, cua/chả cá/giò heo, gia vị",
+    "ingredients_en": "Rice flour, tapioca, crab/fish cake/pork knuckle, spices",
+    "related": ["Hủ tiếu", "Bún riêu"]
+  },
+  "Bánh chưng": {
+    "name_en": "Banh Chung (Square Sticky Rice Cake)",
+    "region": "north",
+    "description_vn": "Bánh chưng là món ăn truyền thống không thể thiếu trong dịp Tết Nguyên Đán của người Việt. Bánh hình vuông, làm từ gạo nếp, đậu xanh, thịt lợn, gói lá dong.",
+    "description_en": "Banh Chung is an indispensable traditional cake for Vietnamese Lunar New Year. Square-shaped, made from sticky rice, mung beans, pork, wrapped in dong leaves.",
+    "ingredients_vn": "Gạo nếp, đậu xanh, thịt lợn, lá dong",
+    "ingredients_en": "Sticky rice, mung beans, pork, dong leaves",
+    "related": ["Bánh tét", "Xôi xéo"]
+  },
+  "Bánh cuốn": {
+    "name_en": "Banh Cuon (Steamed Rice Roll)",
+    "region": "north",
+    "description_vn": "Bánh cuốn Hà Nội là món ăn sáng truyền thống, vỏ bánh mỏng, nhân thịt nấm, ăn kèm chả lụa, giò, nước mắm pha.",
+    "description_en": "Hanoi steamed rice rolls are a traditional breakfast dish. Thin rice sheets filled with minced pork and mushrooms, served with pork sausage and fish sauce.",
+    "ingredients_vn": "Bột gạo, thịt lợn, nấm mèo, chả lụa, nước mắm",
+    "ingredients_en": "Rice flour, pork, wood ear mushrooms, pork sausage, fish sauce",
+    "related": ["Bánh bèo", "Phở"]
+  },
+  "Bánh đúc": {
+    "name_en": "Banh Duc (Rice Cake)",
+    "region": "north",
+    "description_vn": "Bánh đúc là món ăn dân dã của miền Bắc, làm từ bột gạo, có thể ăn nóng hoặc lạnh, kèm với nước tương, giá đỗ, thịt băm.",
+    "description_en": "Banh Duc is a rustic Northern dish made from rice flour, served hot or cold with soy sauce, bean sprouts, and minced pork.",
+    "ingredients_vn": "Bột gạo, nước tương, giá đỗ, thịt băm",
+    "ingredients_en": "Rice flour, soy sauce, bean sprouts, minced pork",
+    "related": ["Bánh cuốn", "Bánh giò"]
+  },
+  "Bánh giò": {
+    "name_en": "Banh Gio (Pyramid Rice Dumpling)",
+    "region": "north",
+    "description_vn": "Bánh giò là món ăn sáng phổ biến ở Hà Nội, hình kim tự tháp, làm từ bột gạo, nhân thịt nấm, gói lá chuối.",
+    "description_en": "Banh Gio is a popular Hanoi breakfast item. Pyramid-shaped, made from rice flour, filled with pork and mushrooms, wrapped in banana leaves.",
+    "ingredients_vn": "Bột gạo, thịt lợn, nấm mèo, lá chuối",
+    "ingredients_en": "Rice flour, pork, wood ear mushrooms, banana leaves",
+    "related": ["Bánh chưng", "Bánh cuốn"]
+  },
+  "Bánh ít": {
+    "name_en": "Banh It (Sticky Rice Dumpling)",
+    "region": "central",
+    "description_vn": "Bánh ít là món ăn dân gian miền Trung, đặc biệt là Huế. Làm từ bột nếp, nhân đậu xanh hoặc dừa, hình tròn tròn nhỏ xinh.",
+    "description_en": "Banh It is a Central Vietnamese folk cake, especially popular in Hue. Made from sticky rice flour, filled with mung beans or coconut, small and round.",
+    "ingredients_vn": "Bột nếp, đậu xanh/dừa, đường, lá chuối",
+    "ingredients_en": "Sticky rice flour, mung beans/coconut, sugar, banana leaves",
+    "related": ["Bánh bột lọc", "Bánh bèo"]
+  },
+  "Bánh khọt": {
+    "name_en": "Banh Khot (Mini Savory Pancake)",
+    "region": "south",
+    "description_vn": "Bánh khọt là đặc sản Vũng Tàu, bánh nhỏ, giòn, có nhân tôm, ăn kèm rau sống và nước mắm chua ngọt.",
+    "description_en": "Banh Khot is a Vung Tau specialty. Small, crispy pancakes with shrimp, served with fresh vegetables and sweet-sour fish sauce.",
+    "ingredients_vn": "Bột gạo, bột nghệ, tôm, dừa, rau sống",
+    "ingredients_en": "Rice flour, turmeric, shrimp, coconut, fresh vegetables",
+    "related": ["Bánh xèo", "Bánh căn"]
+  },
+  
+  "Bánh mì": {
+    "name_en": "Banh Mi (Vietnamese Baguette)",
+    "region": "nationwide",
+    "description_vn": "Bánh mì Việt Nam là sự kết hợp độc đáo giữa ẩm thực Á - Âu. Vỏ bánh giòn, nhân đa dạng từ pate, chả, thịt nguội, rau thơm.",
+    "description_en": "Vietnamese Banh Mi is a unique fusion of Asian and European cuisine. Crispy bread filled with various ingredients: pate, sausage, cold cuts, herbs.",
+    "ingredients_vn": "Bánh mì, pate, chả, thịt nguội, rau thơm, đồ chua",
+    "ingredients_en": "Baguette, pate, sausage, cold cuts, herbs, pickles",
+    "related": ["Xôi xéo", "Cơm tấm"]
+  },
+  
+  "Bánh pía": {
+    "name_en": "Banh Pia (Soc Trang Cake)",
+    "region": "south",
+    "description_vn": "Bánh pía Sóc Trăng là đặc sản nổi tiếng, vỏ bánh xốp nhiều lớp, nhân đậu xanh hoặc sầu riêng, vị ngọt thơm.",
+    "description_en": "Soc Trang Banh Pia is a famous specialty. Flaky pastry layers, filled with mung bean or durian, sweet and aromatic.",
+    "ingredients_vn": "Bột mì, đậu xanh/sầu riêng, đường, mỡ",
+    "ingredients_en": "Wheat flour, mung bean/durian, sugar, lard",
+    "related": ["Bánh tét", "Chè chuối"]
+  },
+  
+  "Bánh tét": {
+    "name_en": "Banh Tet (Cylindrical Sticky Rice Cake)",
+    "region": "south",
+    "description_vn": "Bánh tét là món ăn Tết truyền thống của miền Nam, hình trụ tròn, nhân đậu xanh, thịt, gói lá chuối.",
+    "description_en": "Banh Tet is a traditional Southern New Year cake. Cylindrical shape, filled with mung beans and pork, wrapped in banana leaves.",
+    "ingredients_vn": "Gạo nếp, đậu xanh, thịt lợn, lá chuối",
+    "ingredients_en": "Sticky rice, mung beans, pork, banana leaves",
+    "related": ["Bánh chưng", "Xôi xéo"]
+  },
+  
+  "Bánh tráng nướng": {
+    "name_en": "Banh Trang Nuong (Grilled Rice Paper)",
+    "region": "south",
+    "description_vn": "Bánh tráng nướng là món ăn vặt đường phố Đà Lạt, được gọi là \"pizza Việt Nam\". Giòn tan, phủ trứng, pate, chả, hành phi.",
+    "description_en": "Grilled rice paper is a Da Lat street snack, called \"Vietnamese pizza\". Crispy, topped with egg, pate, sausage, fried shallots.",
+    "ingredients_vn": "Bánh tráng, trứng, pate, chả, hành phi, sốt",
+    "ingredients_en": "Rice paper, egg, pate, sausage, fried shallots, sauce",
+    "related": ["Bánh mì", "Bánh khọt"]
+  },
+  
+  "Bánh xèo": {
+    "name_en": "Banh Xeo (Sizzling Pancake)",
+    "region": "south",
+    "description_vn": "Bánh xèo là món ăn đặc trưng miền Nam, vỏ bánh giòn vàng từ bột nghệ, nhân tôm thịt giá đỗ, cuốn rau sống, chấm nước mắm.",
+    "description_en": "Banh Xeo is a distinctive Southern dish. Crispy yellow turmeric pancake, filled with shrimp, pork, bean sprouts, wrapped in fresh herbs, dipped in fish sauce.",
+    "ingredients_vn": "Bột gạo, bột nghệ, tôm, thịt, giá đỗ, rau sống",
+    "ingredients_en": "Rice flour, turmeric, shrimp, pork, bean sprouts, fresh herbs",
+    "related": ["Bánh khọt", "Gỏi cuốn"]
+  },
+  
+  "Bún bò Huế": {
+    "name_en": "Bun Bo Hue (Hue Beef Noodle Soup)",
+    "region": "central",
+    "description_vn": "Bún bò Huế là món ăn đặc sản nổi tiếng của cố đô, nước dùng đậm đà cay cay từ sả ớt, thịt bò, chả cua, giò heo.",
+    "description_en": "Bun Bo Hue is a famous specialty of the ancient capital. Rich, spicy broth with lemongrass and chili, beef, crab sausage, pork knuckle.",
+    "ingredients_vn": "Bún, thịt bò, chả cua, giò heo, sả, ớt, mắm ruốc",
+    "ingredients_en": "Round rice noodles, beef, crab sausage, pork knuckle, lemongrass, chili, fermented shrimp paste",
+    "related": ["Phở", "Bún riêu"]
+  },
+  
+  "Bún đậu mắm tôm": {
+    "name_en": "Bun Dau Mam Tom (Noodle with Tofu and Shrimp Paste)",
+    "region": "north",
+    "description_vn": "Bún đậu mắm tôm là món ăn đậm chất Hà Nội, kết hợp bún, đậu phụ chiên, thịt luộc, chả cốm, chấm mắm tôm.",
+    "description_en": "Bun Dau Mam Tom is a quintessential Hanoi dish. Vermicelli, fried tofu, boiled pork, green rice sausage, dipped in fermented shrimp paste.",
+    "ingredients_vn": "Bún, đậu phụ, thịt luộc, chả cốm, mắm tôm, rau thơm",
+    "ingredients_en": "Vermicelli, tofu, boiled pork, green rice sausage, shrimp paste, herbs",
+    "related": ["Bún thịt nướng", "Chả lụa"]
+  },
+  
+  "Bún mắm": {
+    "name_en": "Bun Mam (Fermented Fish Noodle Soup)",
+    "region": "south",
+    "description_vn": "Bún mắm là đặc sản miền Tây Nam Bộ, nước dùng đậm đà từ mắm cá, thịt, cá, tôm, rau muống, cà tím.",
+    "description_en": "Bun Mam is a Mekong Delta specialty. Rich broth from fermented fish, pork, fish, shrimp, water spinach, eggplant.",
+    "ingredients_vn": "Bún, mắm cá, thịt, cá, tôm, rau muống, cà tím",
+    "ingredients_en": "Vermicelli, fermented fish, pork, fish, shrimp, water spinach, eggplant",
+    "related": ["Bún riêu", "Canh chua"]
+  },
+  
+  "Bún riêu": {
+    "name_en": "Bun Rieu (Crab Noodle Soup)",
+    "region": "nationwide",
+    "description_vn": "Bún riêu là món ăn phổ biến khắp cả nước, nước dùng chua nhẹ, riêu cua đỏ cam, thịt, đậu phụ, cà chua.",
+    "description_en": "Bun Rieu is popular nationwide. Slightly sour broth, orange-red crab paste, pork, tofu, tomatoes.",
+    "ingredients_vn": "Bún, riêu cua, thịt, đậu phụ, cà chua, rau thơm",
+    "ingredients_en": "Vermicelli, crab paste, pork, tofu, tomatoes, herbs",
+    "related": ["Bún bò Huế", "Phở"]
+  },
+  
+  "Bún thịt nướng": {
+    "name_en": "Bun Thit Nuong (Grilled Pork Vermicelli)",
+    "region": "nationwide",
+    "description_vn": "Bún thịt nướng là món ăn được yêu thích, bún tươi, thịt nướng thơm lừng, chả giò, rau sống, nước mắm chua ngọt.",
+    "description_en": "Grilled pork vermicelli is a beloved dish. Fresh vermicelli, aromatic grilled pork, spring rolls, fresh vegetables, sweet-sour fish sauce.",
+    "ingredients_vn": "Bún, thịt nướng, chả giò, rau sống, nước mắm",
+    "ingredients_en": "Vermicelli, grilled pork, spring rolls, fresh vegetables, fish sauce",
+    "related": ["Bún đậu mắm tôm", "Cơm tấm"]
+  },
+  
+  "Cá kho tộ": {
+    "name_en": "Ca Kho To (Caramelized Fish in Clay Pot)",
+    "region": "south",
+    "description_vn": "Cá kho tộ là món ăn gia đình miền Nam, cá kho với nước dừa, nước mắm, đường, ớt, thơm ngon đậm đà.",
+    "description_en": "Ca Kho To is a Southern family dish. Fish braised with coconut water, fish sauce, sugar, chili, rich and flavorful.",
+    "ingredients_vn": "Cá, nước dừa, nước mắm, đường, ớt, tỏi",
+    "ingredients_en": "Fish, coconut water, fish sauce, sugar, chili, garlic",
+    "related": ["Thịt kho", "Cơm tấm"]
+  },
+  
+  "Canh chua": {
+    "name_en": "Canh Chua (Sweet and Sour Soup)",
+    "region": "south",
+    "description_vn": "Canh chua là món ăn đặc trưng miền Nam, vị chua nhẹ từ me, cà chua, dứa, cá, tôm, rau muống.",
+    "description_en": "Canh Chua is a distinctive Southern dish. Lightly sour from tamarind, tomatoes, pineapple, fish, shrimp, water spinach.",
+    "ingredients_vn": "Me, cà chua, dứa, cá/tôm, rau muống, giá đỗ",
+    "ingredients_en": "Tamarind, tomatoes, pineapple, fish/shrimp, water spinach, bean sprouts",
+    "related": ["Bún mắm", "Canh khổ qua"]
+  },
+  
+  "Canh khổ qua": {
+    "name_en": "Canh Kho Qua (Bitter Melon Soup)",
+    "region": "nationwide",
+    "description_vn": "Canh khổ qua nhồi thịt là món ăn thanh mát, khổ qua giòn, nhân thịt thơm, nước trong ngọt.",
+    "description_en": "Bitter melon soup with meat stuffing is a refreshing dish. Crisp bitter melon, fragrant meat filling, clear sweet broth.",
+    "ingredients_vn": "Khổ qua, thịt băm, hành, tỏi, nước dùng",
+    "ingredients_en": "Bitter melon, minced pork, onion, garlic, broth",
+    "related": ["Canh chua", "Thịt kho"]
+  },
+  
+  "Cao lầu": {
+    "name_en": "Cao Lau (Hoi An Noodles)",
+    "region": "central",
+    "description_vn": "Cao lầu là đặc sản Hội An độc nhất vô nhị, sợi bánh dai, nước dùng đậm đà, thịt quay, rau sống, bánh đa giòn.",
+    "description_en": "Cao Lau is a unique Hoi An specialty. Chewy noodles, rich broth, roasted pork, fresh herbs, crispy crackers.",
+    "ingredients_vn": "Sợi cao lầu, thịt quay, rau thơm, giá đỗ, bánh đa",
+    "ingredients_en": "Cao Lau noodles, roasted pork, herbs, bean sprouts, rice crackers",
+    "related": ["Mì Quảng", "Hủ tiếu"]
+  },
+  
+  "Chả cá": {
+    "name_en": "Cha Ca (Grilled Fish with Turmeric and Dill)",
+    "region": "north",
+    "description_vn": "Chả cá Lã Vọng là món ăn nổi tiếng Hà Nội, cá lăng tẩm nghệ, nướng, xào với riềng, hành lá, thì là.",
+    "description_en": "Cha Ca La Vong is a famous Hanoi dish. Catfish marinated with turmeric, grilled, stir-fried with galangal, scallions, dill.",
+    "ingredients_vn": "Cá lăng, nghệ, riềng, hành lá, thì là, bún",
+    "ingredients_en": "Catfish, turmeric, galangal, scallions, dill, vermicelli",
+    "related": ["Cá kho tộ", "Bún đậu mắm tôm"]
+  },
+  
+  "Chả lụa": {
+    "name_en": "Cha Lua (Vietnamese Pork Sausage)",
+    "region": "nationwide",
+    "description_vn": "Chả lụa (giò lụa) là món ăn truyền thống không thể thiếu trong bữa cơm Việt. Thơm ngon, mềm mịn, làm từ thịt lợn xay.",
+    "description_en": "Cha Lua is an indispensable traditional food in Vietnamese meals. Fragrant, smooth, made from minced pork.",
+    "ingredients_vn": "Thịt lợn xay, nước mắm, bột năng, tiêu",
+    "ingredients_en": "Minced pork, fish sauce, tapioca starch, pepper",
+    "related": ["Bánh cuốn", "Bún đậu mắm tôm"]
+  },
+  
+  "Cháo gà": {
+    "name_en": "Chao Ga (Chicken Congee)",
+    "region": "nationwide",
+    "description_vn": "Cháo gà là món ăn bổ dưỡng, gạo nấu nhuyễn, thịt gà xé, gừng, hành, rau thơm, nóng hổi.",
+    "description_en": "Chicken congee is a nutritious dish. Soft-cooked rice, shredded chicken, ginger, scallions, herbs, piping hot.",
+    "ingredients_vn": "Gạo, thịt gà, gừng, hành, rau thơm",
+    "ingredients_en": "Rice, chicken, ginger, scallions, herbs",
+    "related": ["Cháo lòng", "Phở gà"]
+  },
+  
+  "Cháo lòng": {
+    "name_en": "Chao Long (Pork Offal Congee)",
+    "region": "south",
+    "description_vn": "Cháo lòng là món ăn đêm phổ biến, gạo nấu nhuyễn, lòng heo, tiết, rau thơm, ăn kèm quẩy giòn.",
+    "description_en": "Pork offal congee is a popular late-night dish. Soft rice, pork offal, blood pudding, herbs, served with crispy breadsticks.",
+    "ingredients_vn": "Gạo, lòng heo, tiết, rau thơm, quẩy",
+    "ingredients_en": "Rice, pork offal, blood pudding, herbs, Chinese donuts",
+    "related": ["Cháo gà", "Hủ tiếu"]
+  },
+  
+  "Chè chuối": {
+    "name_en": "Che Chuoi (Banana Sweet Soup)",
+    "region": "nationwide",
+    "description_vn": "Chè chuối là món tráng miệng truyền thống, chuối chín, nước cốt dừa, bột sắn, tapioca, vị ngọt thanh.",
+    "description_en": "Che Chuoi is a traditional dessert. Ripe bananas, coconut milk, tapioca starch, tapioca pearls, sweet and light.",
+    "ingredients_vn": "Chuối, nước cốt dừa, bột sắn, đường, muối",
+    "ingredients_en": "Bananas, coconut milk, tapioca, sugar, salt",
+    "related": ["Xôi xéo", "Bánh pía"]
+  },
+  
+  "Cơm tấm": {
+    "name_en": "Com Tam (Broken Rice)",
+    "region": "south",
+    "description_vn": "Cơm tấm Sài Gòn là món ăn đặc trưng, gạo tấm, sườn nướng, bì, chả trứng, mỡ hành, nước mắm chua ngọt.",
+    "description_en": "Saigon broken rice is a distinctive dish. Broken rice, grilled pork chop, shredded pork skin, egg meatloaf, scallion oil, sweet-sour fish sauce.",
+    "ingredients_vn": "Gạo tấm, sườn nướng, bì, chả trứng, mỡ hành",
+    "ingredients_en": "Broken rice, grilled pork chop, shredded pork skin, egg meatloaf, scallion oil",
+    "related": ["Bún thịt nướng", "Bánh mì"]
+  },
+  
+  "Gỏi cuốn": {
+    "name_en": "Goi Cuon (Fresh Spring Roll)",
+    "region": "south",
+    "description_vn": "Gỏi cuốn là món ăn nhẹ nhàng, tươi mát, bánh tráng cuốn tôm thịt, bún, rau sống, chấm nước mắm hoặc tương.",
+    "description_en": "Fresh spring rolls are light and refreshing. Rice paper wrapped with shrimp, pork, vermicelli, fresh herbs, dipped in fish sauce or peanut sauce.",
+    "ingredients_vn": "Bánh tráng, tôm, thịt, bún, rau sống, nước mắm/tương",
+    "ingredients_en": "Rice paper, shrimp, pork, vermicelli, fresh herbs, fish sauce/peanut sauce",
+    "related": ["Bánh xèo", "Bún thịt nướng"]
+  },
+  
+  "Gỏi gà": {
+    "name_en": "Goi Ga (Chicken Salad)",
+    "region": "nationwide",
+    "description_vn": "Gỏi gà là món ăn thanh mát, thịt gà xé, bắp cải, cà rốt, rau răm, nước mắm chanh, đậu phộng rang.",
+    "description_en": "Chicken salad is a refreshing dish. Shredded chicken, cabbage, carrot, Vietnamese coriander, lime fish sauce, roasted peanuts.",
+    "ingredients_vn": "Thịt gà, bắp cải, cà rốt, rau răm, nước mắm chanh",
+    "ingredients_en": "Chicken, cabbage, carrot, Vietnamese coriander, lime fish sauce",
+    "related": ["Gỏi cuốn", "Nem chua"]
+  },
+  
+  "Hủ tiếu": {
+    "name_en": "Hu Tieu (Clear Noodle Soup)",
+    "region": "south",
+    "description_vn": "Hủ tiếu Nam Vang là món ăn gốc Hoa, phổ biến ở miền Nam, nước dùng trong ngọt, sợi mềm, thịt, tôm, gan, tim.",
+    "description_en": "Hu Tieu Nam Vang is a Chinese-origin dish popular in the South. Clear sweet broth, soft noodles, pork, shrimp, liver, heart.",
+    "ingredients_vn": "Hủ tiếu, thịt, tôm, gan, tim, giá đỗ, hành",
+    "ingredients_en": "Hu tieu noodles, pork, shrimp, liver, heart, bean sprouts, scallions",
+    "related": ["Phở", "Mì Quảng"]
+  },
+  
+  "Mì Quảng": {
+    "name_en": "Mi Quang (Quang Nam Noodles)",
+    "region": "central",
+    "description_vn": "Mì Quảng là món ăn đặc sản Quảng Nam, sợi mì vàng nghệ, nước dùng ít, thịt, tôm, trứng, đậu phộng, bánh tráng.",
+    "description_en": "Mi Quang is a Quang Nam specialty. Yellow turmeric noodles, little broth, pork, shrimp, egg, peanuts, rice crackers.",
+    "ingredients_vn": "Mì Quảng, thịt, tôm, trứng, đậu phộng, bánh tráng",
+    "ingredients_en": "Quang noodles, pork, shrimp, egg, peanuts, rice crackers",
+    "related": ["Cao lầu", "Bún bò Huế"]
+  },
+  
+  "Nem chua": {
+    "name_en": "Nem Chua (Fermented Pork Roll)",
+    "region": "nationwide",
+    "description_vn": "Nem chua là món ăn lên men truyền thống, thịt lợn chua cay, gói lá chuối, ăn với tỏi ớt, đặc sản Thanh Hóa.",
+    "description_en": "Nem Chua is a traditional fermented food. Sour and spicy pork, wrapped in banana leaves, eaten with garlic and chili, Thanh Hoa specialty.",
+    "ingredients_vn": "Thịt lợn, tỏi, ớt, lá chuối, gia vị",
+    "ingredients_en": "Pork, garlic, chili, banana leaves, spices",
+    "related": ["Gỏi gà", "Chả lụa"]
+  },
+  
+  "Phở": {
+    "name_en": "Pho (Vietnamese Noodle Soup)",
+    "region": "north",
+    "description_vn": "Phở là món ăn quốc hồn Việt Nam, nước dùng trong ngọt ninh từ xương, sợi bánh phở trắng mềm, thịt bò hoặc gà, rau thơm.",
+    "description_en": "Pho is the national soul of Vietnamese cuisine. Clear sweet broth from bones, soft white rice noodles, beef or chicken, fresh herbs.",
+    "ingredients_vn": "Bánh phở, thịt bò/gà, xương ninh, gia vị, rau thơm",
+    "ingredients_en": "Pho noodles, beef/chicken, bone broth, spices, fresh herbs",
+    "related": ["Bún bò Huế", "Hủ tiếu"]
+  },
+  
+  "Rau muống xào tỏi": {
+    "name_en": "Rau Muong Xao Toi (Stir-fried Water Spinach with Garlic)",
+    "region": "nationwide",
+    "description_vn": "Rau muống xào tỏi là món ăn đơn giản nhưng không thể thiếu trong bữa cơm Việt. Rau giòn, tỏi thơm, xào nhanh lửa to.",
+    "description_en": "Stir-fried water spinach with garlic is a simple but indispensable Vietnamese dish. Crispy vegetables, fragrant garlic, quick stir-fry on high heat.",
+    "ingredients_vn": "Rau muống, tỏi, dầu ăn, nước mắm, ớt",
+    "ingredients_en": "Water spinach, garlic, cooking oil, fish sauce, chili",
+    "related": ["Canh chua", "Cơm tấm"]
+  },
+  
+  "Thịt kho": {
+    "name_en": "Thit Kho (Braised Pork)",
+    "region": "south",
+    "description_vn": "Thịt kho tàu là món ăn gia đình truyền thống, thịt ba chỉ kho với nước dừa, trứng, đường, mặn ngọt đậm đà.",
+    "description_en": "Braised pork is a traditional family dish. Pork belly braised with coconut water, eggs, sugar, rich and sweet-savory.",
+    "ingredients_vn": "Thịt ba chỉ, trứng, nước dừa, nước mắm, đường",
+    "ingredients_en": "Pork belly, eggs, coconut water, fish sauce, sugar",
+    "related": ["Cá kho tộ", "Cơm tấm"]
+  },
+  
+  "Trứng vịt lộn": {
+    "name_en": "Trung Vit Lon (Balut - Fertilized Duck Egg)",
+    "region": "nationwide",
+    "description_vn": "Trứng vịt lộn là món ăn đường phố đặc trưng Việt Nam, trứng vịt có phôi, ăn với rau răm, muối tiêu chanh.",
+    "description_en": "Balut is a distinctive Vietnamese street food. Fertilized duck egg with embryo, eaten with Vietnamese coriander, salt, pepper, lime.",
+    "ingredients_vn": "Trứng vịt lộn, rau răm, muối, tiêu, chanh",
+    "ingredients_en": "Fertilized duck egg, Vietnamese coriander, salt, pepper, lime",
+    "related": ["Cháo lòng", "Bánh tráng nướng"]
+  },
+  
+  "Xôi xéo": {
+    "name_en": "Xoi Xeo (Sticky Rice with Mung Bean)",
+    "region": "north",
+    "description_vn": "Xôi xéo là món ăn sáng phổ biến Hà Nội, gạo nếp dẻo, đậu xanh, mỡ hành, chả, thịt gà.",
+    "description_en": "Xoi Xeo is a popular Hanoi breakfast. Sticky glutinous rice, mung beans, scallion oil, sausage, chicken.",
+    "ingredients_vn": "Gạo nếp, đậu xanh, mỡ hành, chả, thịt gà",
+    "ingredients_en": "Sticky rice, mung beans, scallion oil, sausage, chicken",
+    "related": ["Bánh chưng", "Bánh mì"]
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "username": "admin",
+    "password": "$2b$12$gOSBM1glX/Okva4hedVkNO0k.lx8n/EMpj4cpciQDSVBI0wlimw7q"
+  },
+  {
+    "username": "testuser",
+    "password": "$2b$12$htHn05QUSdlP9o1LeH.IeeYTTst.jyH4xduGjaF15mlLmPeGXpOni"
+  },
+  {
+    "username": "sunwin123",
+    "password": "$2b$12$CKGKnf0s5G3if87p28tKVe5Iim9YVxKelaGd0pv75u9.aDV.bGlHW"
+  },
+  {
+    "username": "sunwin",
+    "password": "$2b$12$LktLQPoJw3IFo.TZnhNTYOf4S0Ty9JpYzgWzxj9rK7pGTbDcx3LHm"
+  },
+  {
+    "username": "chiendo",
+    "password": "$2b$12$unOECRsuWpI17YEfmietsOO48kgFOnmGdRD93iw1gZBU1s67vgVPC"
+  },
+  {
+    "username": "win",
+    "password": "$2b$12$7yvPQc5NP.Fm.nTn9UJhFu1cBOfqf39sgPhm/eDmelVfU5387/iOS"
+  }
+]
