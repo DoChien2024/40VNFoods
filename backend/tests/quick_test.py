@@ -6,10 +6,11 @@ import numpy as np
 import time
 from tensorflow.keras.models import load_model
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config import IMAGE_SIZE
+# Add project root to path
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, PROJECT_ROOT)
 
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from config import IMAGE_SIZE
 MODEL_PATH = os.path.join(PROJECT_ROOT, "Models", "InceptionV3", "fine_tune_model_best.h5")
 
 print("Loading model...")

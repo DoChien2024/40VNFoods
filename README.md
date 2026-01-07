@@ -79,9 +79,9 @@ See [Model Evaluation Documentation](backend/MODEL_EVALUATION_README.md) for det
 
 ## Screenshots
 
-![Home](c:\Users\LOQ\OneDrive\Pictures\Screenshots\Screenshot 2026-01-07 131448.png)
-![Search](c:\Users\LOQ\OneDrive\Pictures\Screenshots\Screenshot 2026-01-07 131502.png)
-![Results](c:\Users\LOQ\OneDrive\Pictures\Screenshots\Screenshot 2026-01-07 131740.png)
+![Home](Images/Screenshot%202026-01-07%20131448.png)
+![Search](Images/Screenshot%202026-01-07%20131502.png)
+![Results](Images/Screenshot%202026-01-07%20131740.png)
 
 ## Authors & Contact
 

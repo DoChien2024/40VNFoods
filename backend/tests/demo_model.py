@@ -7,10 +7,11 @@ from PIL import Image
 from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.inception_v3 import preprocess_input
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config import IMAGE_SIZE
+# Add project root to path
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, PROJECT_ROOT)
 
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from config import IMAGE_SIZE
 MODEL_PATH = os.path.join(PROJECT_ROOT, "Models", "InceptionV3", "fine_tune_model_best.h5")
 CLASS_MAPPING_FILE = os.path.join(PROJECT_ROOT, "Models", "InceptionV3", "class_mapping.json")
 
