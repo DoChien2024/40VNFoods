@@ -11,88 +11,110 @@
 
 **Try it now:** [https://40vnfoods.vercel.app](https://40vnfoods.vercel.app)
 
-## Overview
+---
 
-Full-stack AI application to recognize and classify **40 traditional Vietnamese dishes** with bilingual information, helping preserve and promote Vietnamese culinary culture.
+## 📖 Overview
 
-**Tech Stack:** React + Vite + Tailwind CSS | Flask + TensorFlow + InceptionV3
+Full-stack AI application to recognize and classify **40 traditional Vietnamese dishes** with bilingual support, helping preserve and promote Vietnamese culinary culture.
 
-**Deployment:** Frontend on Vercel | Backend on Render
+**Tech Stack**
 
-## Features
+- **Frontend:** React 18 + Vite + Tailwind CSS
+- **Backend:** Flask + TensorFlow 2.16 + InceptionV3
+- **Deployment:** Vercel (Frontend) + Render (Backend)
 
-- AI food recognition with confidence scores
-- Bilingual food library (Vietnamese - English)
-- JWT authentication & personalized history
-- Regional classification (North - Central - South)
-- Responsive modern UI
+**Key Features**
 
-## Quick Start
+- 🤖 AI-powered food recognition with confidence scores
+- 🌏 Bilingual interface (Vietnamese/English)
+- 🔐 JWT authentication & personalized history
+- 📍 Regional classification (North/Central/South)
+- 📱 Fully responsive modern UI
+
+---
+
+## 🚀 Quick Start
 
 ```bash
-# Backend
+# Backend Setup
 cd backend
 pip install -r requirements.txt
-python api.py  # Runs on http://localhost:5000
+python api.py  # http://localhost:5000
 
-# Frontend
+# Frontend Setup
 cd frontend
 npm install
-npm run dev    # Runs on http://localhost:5173
+npm run dev    # http://localhost:5173
 ```
 
-## 40 Dishes
+---
 
-**Northern:** Phở, Bún chả, Bánh cuốn, Chả cá...  
-**Central:** Bún bò Huế, Bánh bèo, Cao lầu, Mì Quảng...  
-**Southern:** Bánh xèo, Cơm tấm, Hủ tiếu, Bún mắm...
+## 🍜 40 Vietnamese Dishes
 
-## API Endpoints
+| Region         | Count | Examples                                        |
+| -------------- | ----- | ----------------------------------------------- |
+| **Northern**   | 8     | Phở, Bún chả, Bánh cuốn, Chả cá, Bánh chưng     |
+| **Central**    | 6     | Bún bò Huế, Bánh bèo, Cao lầu, Mì Quảng         |
+| **Southern**   | 14    | Bánh xèo, Cơm tấm, Hủ tiếu, Bún mắm, Bánh khọt  |
+| **Nationwide** | 12    | Bánh mì, Nem rán, Phở cuốn, Bánh canh, Gà nướng |
 
-**Auth:** `POST /api/register` | `POST /api/login` | `POST /api/refresh`  
-**Predict:** `POST /api/predict` - Upload image Get dish name + confidence  
-**History:** `GET /api/history` | `DELETE /api/history/<id>`  
-**Foods:** `GET /api/foods` | `GET /api/foods/<name>`
+---
 
-## Model Evaluation
+## 📡 API Endpoints
 
-Comprehensive model metrics and evaluation available. Run evaluation script:
+| Category    | Endpoints                                                           |
+| ----------- | ------------------------------------------------------------------- |
+| **Auth**    | `POST /api/register` `POST /api/login` `POST /api/refresh`          |
+| **Predict** | `POST /api/predict` - Upload image → Get dish info + confidence     |
+| **History** | `GET /api/history` `DELETE /api/history` `DELETE /api/history/<id>` |
+| **Foods**   | `GET /api/foods/search` `GET /api/food/<name>`                      |
+
+---
+
+## 🎯 Model Performance
+
+| Metric       | Value                              |
+| ------------ | ---------------------------------- |
+| Architecture | InceptionV3 with Transfer Learning |
+| Parameters   | 22.9M (12.2M trainable)            |
+| Classes      | 40 Vietnamese dishes               |
+| Input Size   | 299×299 RGB                        |
+| Single Image | ~95ms (10.6 img/sec)               |
+| Batch (8)    | 25.0 img/sec                       |
+
+**Evaluation & Testing**
 
 ```bash
-cd backend
-python model_evaluation.py
+
+# Quick performance test
+python backend/tests/quick_test.py
+
+# Interactive demo
+python backend/tests/demo_model.py
 ```
 
-**Generated Files:**
+**Model Files:** `fine_tune_model_best.h5` | `class_mapping.json` | `metrics.json` | `demo_results.json`
 
-- `Models/InceptionV3/metrics.json` - Full metrics (accuracy, precision, recall, F1)
-- `Models/InceptionV3/confusion_matrix.png` - Visualization
-- `Models/InceptionV3/classification_report.txt` - Detailed report
+---
 
-**Current Model Stats:**
-
-- Total Parameters: 22.8M (12.2M trainable)
-- Architecture: InceptionV3 with Transfer Learning
-- Classes: 40 Vietnamese dishes
-
-See [Model Evaluation Documentation](backend/MODEL_EVALUATION_README.md) for details.
-
-## Screenshots
+## 📸 Screenshots
 
 ![Home](Images/Screenshot%202026-01-07%20131448.png)
 ![Search](Images/Screenshot%202026-01-07%20131502.png)
 ![Results](Images/Screenshot%202026-01-07%20131740.png)
 
-## Authors & Contact
+---
+
+## 👥 Authors & Contact
 
 **Nguyen Thai Bao, Do Xuan Chien** - Developers
 
-[Nguyenthaibao874@gmail.com](mailto:Nguyenthaibao874@gmail.com) | [GitHub](https://github.com/DoChien2024/40VNFoods) | +84 389 387 955
+📧 [Nguyenthaibao874@gmail.com](mailto:Nguyenthaibao874@gmail.com) | 💻 [GitHub](https://github.com/DoChien2024/40VNFoods) | 📱 +84 389 387 955
 
 ---
 
 <div align="center">
 
-**Made with in Vietnam** | _Preserving Vietnamese culinary culture_
+**Made with ❤️ in Vietnam** | _Preserving Vietnamese culinary culture_
 
 </div>
